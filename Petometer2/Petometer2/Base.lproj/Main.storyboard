@@ -8,6 +8,37 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Ucn-pi-M3N">
+            <objects>
+                <viewController id="Jl7-04-FEx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LnU-1Y-9sP"/>
+                        <viewControllerLayoutGuide type="bottom" id="BA3-fm-CFX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XXW-C7-37f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Eat.png" translatesAutoresizingMaskIntoConstraints="NO" id="X2T-yw-ZTd">
+                                <rect key="frame" x="0.0" y="59" width="375" height="608"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RX4-fu-Y27">
+                                <rect key="frame" x="261" y="617" width="114" height="50"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="q5e-zk-5aj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XMb-fz-VUk"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k6i-1Y-POM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.5" y="-278.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
@@ -97,6 +128,24 @@
                                     <constraint firstAttribute="width" constant="150" id="tYY-VN-Bbu"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-pP-xrF">
+                                <rect key="frame" x="20" y="64" width="282" height="29"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBC-c1-DX2">
+                                <rect key="frame" x="0.0" y="54" width="89" height="50"/>
+                                <connections>
+                                    <segue destination="Jl7-04-FEx" kind="push" id="9tJ-xJ-qdH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -118,21 +167,22 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="1eX-gu-7gK"/>
                                 <exclude reference="NDk-UT-bie"/>
+                                <exclude reference="1eX-gu-7gK"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="6O3-N4-bZy"/>
                     <connections>
                         <outlet property="activityState" destination="WTE-Yr-C3o" id="fYr-mC-T3z"/>
+                        <outlet property="expLabel" destination="oPV-pP-xrF" id="DO9-1t-Wc6"/>
                         <outlet property="stateImageView" destination="Kh1-MB-gat" id="6Gj-Ll-NDz"/>
                         <outlet property="steps" destination="OHJ-8p-VzR" id="bmX-eT-lfF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1377" y="499"/>
+            <point key="canvasLocation" x="1376.5" y="498.5"/>
         </scene>
         <!--Final Step View Controller-->
         <scene sceneID="fkK-jz-tH6">
@@ -200,11 +250,11 @@
                         <viewControllerLayoutGuide type="bottom" id="a2F-ct-RRo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i10-JA-xrt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WorkOut.png" translatesAutoresizingMaskIntoConstraints="NO" id="M3P-BZ-Y2D">
-                                <rect key="frame" x="-3" y="64" width="381" height="536"/>
+                                <rect key="frame" x="110" y="64" width="380" height="536"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="M3P-BZ-Y2D" secondAttribute="height" multiplier="15:26" id="i1B-v8-uNV"/>
                                     <constraint firstAttribute="width" constant="380" id="lxc-g7-8hj"/>
@@ -441,6 +491,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Eat.png" width="750" height="1334"/>
         <image name="Egg2.png" width="491" height="539"/>
         <image name="List (2).png" width="750" height="1334"/>
         <image name="Lunges.gif" width="572" height="803"/>
@@ -462,6 +513,6 @@
         <image name="WorkOut.png" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yA3-SU-V6Y"/>
+        <segue reference="q5e-zk-5aj"/>
     </inferredMetricsTieBreakers>
 </document>

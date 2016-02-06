@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var activityState: UILabel!
     @IBOutlet weak var steps: UILabel!
     
+    @IBOutlet weak var expLabel: UILabel!
+    var experience = 0
     
     var days:[String] = []
     var stepsTaken:[Int] = []
@@ -105,7 +107,9 @@ class ViewController: UIViewController {
             self.pedoMeter.queryPedometerDataFromDate(fromDate, toDate: NSDate()) { (data : CMPedometerData?, error) -> Void in
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                     if(error == nil){
-                        self.steps.text = "\(data!.numberOfSteps)" 
+                        self.steps.text = "\(data!.numberOfSteps)"
+                        self.experience = Int(data!.numberOfSteps)/13
+                        self.expLabel.text = "Exp: \(self.experience)"
                     }
                 })
                 
@@ -115,6 +119,8 @@ class ViewController: UIViewController {
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
                     if(error == nil){
                         self.steps.text = "\(data!.numberOfSteps)"
+                        self.experience = Int(data!.numberOfSteps)/13
+                        self.expLabel.text = "Exp: \(self.experience)"
                     }
                 })
             }

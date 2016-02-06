@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19EBC9DA7A82403FBBF24F11 /* Pods_Petometer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01737792095DABA665C65EDD /* Pods_Petometer2.framework */; };
+		510474E61C663AFB00CD1D2F /* Eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 510474E51C663AFB00CD1D2F /* Eat.png */; };
 		51AE80B61C65A9F4003DC19E /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE80B51C65A9F4003DC19E /* Gifu.framework */; };
 		51AE80D21C65BDDC003DC19E /* Stationary.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80B71C65BDDC003DC19E /* Stationary.gif */; };
 		51AE80D31C65BDDC003DC19E /* Stationary2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80B81C65BDDC003DC19E /* Stationary2.gif */; };
@@ -102,6 +103,7 @@
 
 /* Begin PBXFileReference section */
 		01737792095DABA665C65EDD /* Pods_Petometer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petometer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510474E51C663AFB00CD1D2F /* Eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Eat.png; path = ../../../../../Downloads/Eat.png; sourceTree = "<group>"; };
 		51AE80B51C65A9F4003DC19E /* Gifu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gifu.framework; path = "Pods/../build/Debug-iphoneos/Gifu.framework"; sourceTree = "<group>"; };
 		51AE80B71C65BDDC003DC19E /* Stationary.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Stationary.gif; path = ../../../../../Downloads/devfestproject2016/Stationary.gif; sourceTree = "<group>"; };
 		51AE80B81C65BDDC003DC19E /* Stationary2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Stationary2.gif; path = ../../../../../Downloads/devfestproject2016/Stationary2.gif; sourceTree = "<group>"; };
@@ -361,6 +363,7 @@
 				51AE80F31C65E345003DC19E /* Egg2.png */,
 				51AE80FA1C65E64E003DC19E /* WorkOut.png */,
 				51AE81001C65F148003DC19E /* List (2).png */,
+				510474E51C663AFB00CD1D2F /* Eat.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				51AE80DD1C65BDDC003DC19E /* Run2.gif in Resources */,
 				51AE80E41C65BDDC003DC19E /* Stationary7.gif in Resources */,
 				51AE80F41C65E345003DC19E /* Egg2.png in Resources */,
+				510474E61C663AFB00CD1D2F /* Eat.png in Resources */,
 				51C03C671C6598FF000185BA /* LaunchScreen.storyboard in Resources */,
 				51AE80E81C65BDDC003DC19E /* Walk3.gif in Resources */,
 				51C03C641C6598FF000185BA /* Assets.xcassets in Resources */,
