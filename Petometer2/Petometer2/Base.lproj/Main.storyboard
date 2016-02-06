@@ -134,10 +134,10 @@
             </objects>
             <point key="canvasLocation" x="1377" y="499"/>
         </scene>
-        <!--View Controller-->
+        <!--Final Step View Controller-->
         <scene sceneID="fkK-jz-tH6">
             <objects>
-                <viewController id="cYE-QG-xKM" sceneMemberID="viewController">
+                <viewController id="cYE-QG-xKM" customClass="FinalStepViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="l4d-pM-iwb"/>
                         <viewControllerLayoutGuide type="bottom" id="eHL-MH-aGE"/>
@@ -155,11 +155,37 @@
                                     <segue destination="BYZ-38-t0r" kind="push" id="yA3-SU-V6Y"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Run1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="KdI-Qc-j6L" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="0.0" y="409" width="134" height="149"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Run3.gif" translatesAutoresizingMaskIntoConstraints="NO" id="0sv-15-RkT" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="8" y="559" width="165" height="93"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Run4.gif" translatesAutoresizingMaskIntoConstraints="NO" id="nIz-g2-xFc" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="174" y="457" width="95" height="195"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Run6.gif" translatesAutoresizingMaskIntoConstraints="NO" id="sn3-i7-UvF" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="242" y="334" width="133" height="166"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Run5.gif" translatesAutoresizingMaskIntoConstraints="NO" id="lXk-dm-A6i" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="75" y="302" width="165" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Walk7.gif" translatesAutoresizingMaskIntoConstraints="NO" id="ENo-6Y-kCq" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="277" y="508" width="85" height="111"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="T7P-8j-1bt"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bowImage" destination="nIz-g2-xFc" id="TeG-aU-Jp0"/>
+                        <outlet property="eyepatchImage" destination="sn3-i7-UvF" id="gQf-2t-cXZ"/>
+                        <outlet property="hatImage" destination="ENo-6Y-kCq" id="tCu-nw-vvO"/>
+                        <outlet property="mustacheImage" destination="0sv-15-RkT" id="VXh-8u-oYp"/>
+                        <outlet property="scarfImage" destination="lXk-dm-A6i" id="6Og-LD-w8o"/>
+                        <outlet property="sunglassImage" destination="KdI-Qc-j6L" id="zuc-yL-P0u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hfp-Hu-yNk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,10 +276,10 @@
             </objects>
             <point key="canvasLocation" x="1368.5" y="1969.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Step1 View Controller-->
         <scene sceneID="rBX-gh-G1q">
             <objects>
-                <viewController id="Jcs-rP-A5T" sceneMemberID="viewController">
+                <viewController id="Jcs-rP-A5T" customClass="Step1ViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tsn-r1-EGf"/>
                         <viewControllerLayoutGuide type="bottom" id="RPo-IB-aOh"/>
@@ -262,6 +288,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Step1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TFM-IF-CfV">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-uc-L4d">
                                 <rect key="frame" x="251" y="604" width="117" height="63"/>
                                 <connections>
@@ -269,16 +298,16 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PushUp.gif" translatesAutoresizingMaskIntoConstraints="NO" id="mzr-QQ-ysx" customClass="AnimatableImageView" customModule="Gifu">
-                                <rect key="frame" x="67" y="297" width="301" height="275"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Step1.png" translatesAutoresizingMaskIntoConstraints="NO" id="TFM-IF-CfV">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="37" y="299" width="301" height="275"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="wVq-wT-bm8"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="pushupImage" destination="mzr-QQ-ysx" id="vaa-gj-s6l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="THf-1d-y7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -305,6 +334,9 @@
                                     <segue destination="cYE-QG-xKM" kind="push" id="LPG-MT-mKJ"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plank.png" translatesAutoresizingMaskIntoConstraints="NO" id="tJD-BJ-n0s">
+                                <rect key="frame" x="31" y="341" width="312" height="236"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -315,10 +347,10 @@
             </objects>
             <point key="canvasLocation" x="2004.5" y="1213.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Step3 View Controller-->
         <scene sceneID="r1G-Ol-CZS">
             <objects>
-                <viewController id="VxY-1J-zkx" sceneMemberID="viewController">
+                <viewController id="VxY-1J-zkx" customClass="Step3ViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hQy-78-yHB"/>
                         <viewControllerLayoutGuide type="bottom" id="2sX-VP-clT"/>
@@ -327,29 +359,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Step3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lle-uf-BbT">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zx-re-cLV">
                                 <rect key="frame" x="261" y="596" width="114" height="71"/>
                                 <connections>
                                     <segue destination="HHL-Cw-LfB" kind="push" id="vVU-YZ-dIg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Step3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lle-uf-BbT">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Squats.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Ptf-uU-RfB" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="40" y="185" width="263" height="335"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="W7J-wP-czF"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="squatImage" destination="Ptf-uU-RfB" id="gXl-tk-xiK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZD2-RR-u7l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2492.5" y="1213.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Step2 View Controller-->
         <scene sceneID="PyZ-j9-Qs2">
             <objects>
-                <viewController id="T4i-tt-89k" sceneMemberID="viewController">
+                <viewController id="T4i-tt-89k" customClass="Step2ViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VCD-6R-1MI"/>
                         <viewControllerLayoutGuide type="bottom" id="J2r-aA-yiw"/>
@@ -367,11 +405,17 @@
                                     <segue destination="VxY-1J-zkx" kind="push" id="ULs-BE-2WG"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lunges.gif" translatesAutoresizingMaskIntoConstraints="NO" id="hSx-R6-rqd" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="53" y="264" width="254" height="303"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="TS8-66-F0A"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lungeImage" destination="hSx-R6-rqd" id="cIl-Ys-dKW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G75-81-Ya1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -399,13 +443,22 @@
     <resources>
         <image name="Egg2.png" width="491" height="539"/>
         <image name="List (2).png" width="750" height="1334"/>
+        <image name="Lunges.gif" width="572" height="803"/>
+        <image name="Plank.png" width="699" height="584"/>
         <image name="ProtoBackground.png" width="750" height="1334"/>
         <image name="PushUp.gif" width="750" height="650"/>
+        <image name="Run1.gif" width="572" height="803"/>
+        <image name="Run3.gif" width="572" height="803"/>
+        <image name="Run4.gif" width="572" height="803"/>
+        <image name="Run5.gif" width="572" height="803"/>
+        <image name="Run6.gif" width="572" height="803"/>
+        <image name="Squats.gif" width="572" height="803"/>
         <image name="Step1.png" width="750" height="1334"/>
         <image name="Step2.png" width="750" height="1334"/>
         <image name="Step3.png" width="750" height="1334"/>
         <image name="Step4.png" width="750" height="1334"/>
         <image name="Step5.png" width="750" height="1334"/>
+        <image name="Walk7.gif" width="572" height="803"/>
         <image name="WorkOut.png" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>

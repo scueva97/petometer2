@@ -54,6 +54,10 @@
 		51AE81151C65FD94003DC19E /* Step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810C1C65FD94003DC19E /* Step4.png */; };
 		51AE81161C65FD94003DC19E /* Step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810D1C65FD94003DC19E /* Step5.png */; };
 		51AE811A1C661469003DC19E /* SpeechSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE81171C661456003DC19E /* SpeechSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		51AE811F1C662D13003DC19E /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE811E1C662D13003DC19E /* Step1ViewController.swift */; };
+		51AE81211C662EEB003DC19E /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE81201C662EEB003DC19E /* Step2ViewController.swift */; };
+		51AE81231C662FED003DC19E /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE81221C662FED003DC19E /* Step3ViewController.swift */; };
+		51AE81251C663208003DC19E /* FinalStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE81241C663208003DC19E /* FinalStepViewController.swift */; };
 		51C03C5D1C6598FF000185BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5C1C6598FF000185BA /* AppDelegate.swift */; };
 		51C03C5F1C6598FF000185BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5E1C6598FF000185BA /* ViewController.swift */; };
 		51C03C621C6598FF000185BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C03C601C6598FF000185BA /* Main.storyboard */; };
@@ -144,6 +148,10 @@
 		51AE810C1C65FD94003DC19E /* Step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step4.png; sourceTree = "<group>"; };
 		51AE810D1C65FD94003DC19E /* Step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step5.png; sourceTree = "<group>"; };
 		51AE81171C661456003DC19E /* SpeechSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechSDK.framework; path = ../../../SpeechSDK/SpeechSDK.framework; sourceTree = "<group>"; };
+		51AE811E1C662D13003DC19E /* Step1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
+		51AE81201C662EEB003DC19E /* Step2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		51AE81221C662FED003DC19E /* Step3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		51AE81241C663208003DC19E /* FinalStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalStepViewController.swift; sourceTree = "<group>"; };
 		51C03C591C6598FF000185BA /* Petometer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petometer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C03C5C1C6598FF000185BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C03C5E1C6598FF000185BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -320,6 +328,10 @@
 			children = (
 				51AE80F51C65E55B003DC19E /* EncouragementViewController.swift */,
 				51AE81021C65F1D6003DC19E /* WorkoutListViewController.swift */,
+				51AE811E1C662D13003DC19E /* Step1ViewController.swift */,
+				51AE81201C662EEB003DC19E /* Step2ViewController.swift */,
+				51AE81221C662FED003DC19E /* Step3ViewController.swift */,
+				51AE81241C663208003DC19E /* FinalStepViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -601,10 +613,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE81211C662EEB003DC19E /* Step2ViewController.swift in Sources */,
 				51AE80F61C65E55B003DC19E /* EncouragementViewController.swift in Sources */,
+				51AE81231C662FED003DC19E /* Step3ViewController.swift in Sources */,
 				51C03C5F1C6598FF000185BA /* ViewController.swift in Sources */,
 				51C03C5D1C6598FF000185BA /* AppDelegate.swift in Sources */,
 				51CC9D131C659C9F006F08C5 /* HealthMonitor.swift in Sources */,
+				51AE81251C663208003DC19E /* FinalStepViewController.swift in Sources */,
+				51AE811F1C662D13003DC19E /* Step1ViewController.swift in Sources */,
 				51AE81031C65F1D6003DC19E /* WorkoutListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
