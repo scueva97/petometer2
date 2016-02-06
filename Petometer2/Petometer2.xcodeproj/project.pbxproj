@@ -36,6 +36,24 @@
 		51AE80EA1C65BDDC003DC19E /* Walk5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80CF1C65BDDC003DC19E /* Walk5.gif */; };
 		51AE80EB1C65BDDC003DC19E /* Walk6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80D01C65BDDC003DC19E /* Walk6.gif */; };
 		51AE80EC1C65BDDC003DC19E /* Walk7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80D11C65BDDC003DC19E /* Walk7.gif */; };
+		51AE80EE1C65D218003DC19E /* StationaryStill.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80ED1C65D218003DC19E /* StationaryStill.png */; };
+		51AE80F01C65D225003DC19E /* WalkStill.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80EF1C65D225003DC19E /* WalkStill.png */; };
+		51AE80F21C65D22D003DC19E /* RunStill.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80F11C65D22D003DC19E /* RunStill.png */; };
+		51AE80F41C65E345003DC19E /* Egg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80F31C65E345003DC19E /* Egg2.png */; };
+		51AE80F61C65E55B003DC19E /* EncouragementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE80F51C65E55B003DC19E /* EncouragementViewController.swift */; };
+		51AE80FC1C65E64E003DC19E /* WorkOut.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80FA1C65E64E003DC19E /* WorkOut.png */; };
+		51AE81011C65F148003DC19E /* List (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81001C65F148003DC19E /* List (2).png */; };
+		51AE81031C65F1D6003DC19E /* WorkoutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AE81021C65F1D6003DC19E /* WorkoutListViewController.swift */; };
+		51AE810E1C65FD94003DC19E /* Lunges.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81051C65FD94003DC19E /* Lunges.gif */; };
+		51AE810F1C65FD94003DC19E /* Plank.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81061C65FD94003DC19E /* Plank.png */; };
+		51AE81101C65FD94003DC19E /* PushUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81071C65FD94003DC19E /* PushUp.gif */; };
+		51AE81111C65FD94003DC19E /* Squats.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81081C65FD94003DC19E /* Squats.gif */; };
+		51AE81121C65FD94003DC19E /* Step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE81091C65FD94003DC19E /* Step1.png */; };
+		51AE81131C65FD94003DC19E /* Step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810A1C65FD94003DC19E /* Step2.png */; };
+		51AE81141C65FD94003DC19E /* Step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810B1C65FD94003DC19E /* Step3.png */; };
+		51AE81151C65FD94003DC19E /* Step4.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810C1C65FD94003DC19E /* Step4.png */; };
+		51AE81161C65FD94003DC19E /* Step5.png in Resources */ = {isa = PBXBuildFile; fileRef = 51AE810D1C65FD94003DC19E /* Step5.png */; };
+		51AE811A1C661469003DC19E /* SpeechSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE81171C661456003DC19E /* SpeechSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		51C03C5D1C6598FF000185BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5C1C6598FF000185BA /* AppDelegate.swift */; };
 		51C03C5F1C6598FF000185BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5E1C6598FF000185BA /* ViewController.swift */; };
 		51C03C621C6598FF000185BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C03C601C6598FF000185BA /* Main.storyboard */; };
@@ -63,6 +81,20 @@
 			remoteInfo = Petometer2;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51AE811B1C661469003DC19E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				51AE811A1C661469003DC19E /* SpeechSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01737792095DABA665C65EDD /* Pods_Petometer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petometer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +126,24 @@
 		51AE80CF1C65BDDC003DC19E /* Walk5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Walk5.gif; path = ../../../../../Downloads/devfestproject2016/Walk5.gif; sourceTree = "<group>"; };
 		51AE80D01C65BDDC003DC19E /* Walk6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Walk6.gif; path = ../../../../../Downloads/devfestproject2016/Walk6.gif; sourceTree = "<group>"; };
 		51AE80D11C65BDDC003DC19E /* Walk7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Walk7.gif; path = ../../../../../Downloads/devfestproject2016/Walk7.gif; sourceTree = "<group>"; };
+		51AE80ED1C65D218003DC19E /* StationaryStill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StationaryStill.png; sourceTree = "<group>"; };
+		51AE80EF1C65D225003DC19E /* WalkStill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WalkStill.png; sourceTree = "<group>"; };
+		51AE80F11C65D22D003DC19E /* RunStill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RunStill.png; sourceTree = "<group>"; };
+		51AE80F31C65E345003DC19E /* Egg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Egg2.png; sourceTree = "<group>"; };
+		51AE80F51C65E55B003DC19E /* EncouragementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncouragementViewController.swift; sourceTree = "<group>"; };
+		51AE80FA1C65E64E003DC19E /* WorkOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WorkOut.png; sourceTree = "<group>"; };
+		51AE81001C65F148003DC19E /* List (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List (2).png"; sourceTree = "<group>"; };
+		51AE81021C65F1D6003DC19E /* WorkoutListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutListViewController.swift; sourceTree = "<group>"; };
+		51AE81051C65FD94003DC19E /* Lunges.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lunges.gif; sourceTree = "<group>"; };
+		51AE81061C65FD94003DC19E /* Plank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plank.png; sourceTree = "<group>"; };
+		51AE81071C65FD94003DC19E /* PushUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PushUp.gif; sourceTree = "<group>"; };
+		51AE81081C65FD94003DC19E /* Squats.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Squats.gif; sourceTree = "<group>"; };
+		51AE81091C65FD94003DC19E /* Step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step1.png; sourceTree = "<group>"; };
+		51AE810A1C65FD94003DC19E /* Step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step2.png; sourceTree = "<group>"; };
+		51AE810B1C65FD94003DC19E /* Step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step3.png; sourceTree = "<group>"; };
+		51AE810C1C65FD94003DC19E /* Step4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step4.png; sourceTree = "<group>"; };
+		51AE810D1C65FD94003DC19E /* Step5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Step5.png; sourceTree = "<group>"; };
+		51AE81171C661456003DC19E /* SpeechSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechSDK.framework; path = ../../../SpeechSDK/SpeechSDK.framework; sourceTree = "<group>"; };
 		51C03C591C6598FF000185BA /* Petometer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petometer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C03C5C1C6598FF000185BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C03C5E1C6598FF000185BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +190,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51AE80F71C65E5E7003DC19E /* Stationary */ = {
+			isa = PBXGroup;
+			children = (
+				51AE80B71C65BDDC003DC19E /* Stationary.gif */,
+				51AE80B81C65BDDC003DC19E /* Stationary2.gif */,
+				51AE80BC1C65BDDC003DC19E /* Stationary3.gif */,
+				51AE80BD1C65BDDC003DC19E /* Stationary4.gif */,
+				51AE80BE1C65BDDC003DC19E /* Stationary5.gif */,
+				51AE80BF1C65BDDC003DC19E /* Stationary6.gif */,
+				51AE80C81C65BDDC003DC19E /* Stationary8.gif */,
+				51AE80C91C65BDDC003DC19E /* Stationary7.gif */,
+			);
+			name = Stationary;
+			sourceTree = "<group>";
+		};
+		51AE80F81C65E618003DC19E /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				51AE80C01C65BDDC003DC19E /* Run.gif */,
+				51AE80C11C65BDDC003DC19E /* Run1.gif */,
+				51AE80C21C65BDDC003DC19E /* Run2.gif */,
+				51AE80C31C65BDDC003DC19E /* Run3.gif */,
+				51AE80C41C65BDDC003DC19E /* Run4.gif */,
+				51AE80C51C65BDDC003DC19E /* Run5.gif */,
+				51AE80C61C65BDDC003DC19E /* Run6.gif */,
+				51AE80C71C65BDDC003DC19E /* Run7.gif */,
+			);
+			name = Run;
+			sourceTree = "<group>";
+		};
+		51AE80F91C65E630003DC19E /* Walk */ = {
+			isa = PBXGroup;
+			children = (
+				51AE80CA1C65BDDC003DC19E /* Walk.gif */,
+				51AE80CB1C65BDDC003DC19E /* Walk8.gif */,
+				51AE80CC1C65BDDC003DC19E /* Walk2.gif */,
+				51AE80CD1C65BDDC003DC19E /* Walk3.gif */,
+				51AE80CE1C65BDDC003DC19E /* Walk4.gif */,
+				51AE80CF1C65BDDC003DC19E /* Walk5.gif */,
+				51AE80D01C65BDDC003DC19E /* Walk6.gif */,
+				51AE80D11C65BDDC003DC19E /* Walk7.gif */,
+			);
+			name = Walk;
+			sourceTree = "<group>";
+		};
+		51AE81041C65FD84003DC19E /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				51AE81051C65FD94003DC19E /* Lunges.gif */,
+				51AE81061C65FD94003DC19E /* Plank.png */,
+				51AE81071C65FD94003DC19E /* PushUp.gif */,
+				51AE81081C65FD94003DC19E /* Squats.gif */,
+				51AE81091C65FD94003DC19E /* Step1.png */,
+				51AE810A1C65FD94003DC19E /* Step2.png */,
+				51AE810B1C65FD94003DC19E /* Step3.png */,
+				51AE810C1C65FD94003DC19E /* Step4.png */,
+				51AE810D1C65FD94003DC19E /* Step5.png */,
+			);
+			name = Workout;
+			sourceTree = "<group>";
+		};
 		51C03C501C6598FF000185BA = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +318,8 @@
 		51CC9D0B1C6599AE006F08C5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				51AE80F51C65E55B003DC19E /* EncouragementViewController.swift */,
+				51AE81021C65F1D6003DC19E /* WorkoutListViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -222,34 +335,20 @@
 		51CC9D0D1C659A27006F08C5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				51AE80B71C65BDDC003DC19E /* Stationary.gif */,
-				51AE80B81C65BDDC003DC19E /* Stationary2.gif */,
+				51AE81041C65FD84003DC19E /* Workout */,
+				51AE80F71C65E5E7003DC19E /* Stationary */,
 				51AE80B91C65BDDC003DC19E /* EggShake.gif */,
+				51AE80F81C65E618003DC19E /* Run */,
 				51AE80BA1C65BDDC003DC19E /* EvolShake.gif */,
 				51AE80BB1C65BDDC003DC19E /* GlassesShake.gif */,
-				51AE80BC1C65BDDC003DC19E /* Stationary3.gif */,
-				51AE80BD1C65BDDC003DC19E /* Stationary4.gif */,
-				51AE80BE1C65BDDC003DC19E /* Stationary5.gif */,
-				51AE80BF1C65BDDC003DC19E /* Stationary6.gif */,
-				51AE80C01C65BDDC003DC19E /* Run.gif */,
-				51AE80C11C65BDDC003DC19E /* Run1.gif */,
-				51AE80C21C65BDDC003DC19E /* Run2.gif */,
-				51AE80C31C65BDDC003DC19E /* Run3.gif */,
-				51AE80C41C65BDDC003DC19E /* Run4.gif */,
-				51AE80C51C65BDDC003DC19E /* Run5.gif */,
-				51AE80C61C65BDDC003DC19E /* Run6.gif */,
-				51AE80C71C65BDDC003DC19E /* Run7.gif */,
-				51AE80C81C65BDDC003DC19E /* Stationary8.gif */,
-				51AE80C91C65BDDC003DC19E /* Stationary7.gif */,
-				51AE80CA1C65BDDC003DC19E /* Walk.gif */,
-				51AE80CB1C65BDDC003DC19E /* Walk8.gif */,
-				51AE80CC1C65BDDC003DC19E /* Walk2.gif */,
-				51AE80CD1C65BDDC003DC19E /* Walk3.gif */,
-				51AE80CE1C65BDDC003DC19E /* Walk4.gif */,
-				51AE80CF1C65BDDC003DC19E /* Walk5.gif */,
-				51AE80D01C65BDDC003DC19E /* Walk6.gif */,
-				51AE80D11C65BDDC003DC19E /* Walk7.gif */,
+				51AE80F91C65E630003DC19E /* Walk */,
+				51AE80F11C65D22D003DC19E /* RunStill.png */,
 				51CC9D0E1C659A45006F08C5 /* ProtoBackground.png */,
+				51AE80ED1C65D218003DC19E /* StationaryStill.png */,
+				51AE80EF1C65D225003DC19E /* WalkStill.png */,
+				51AE80F31C65E345003DC19E /* Egg2.png */,
+				51AE80FA1C65E64E003DC19E /* WorkOut.png */,
+				51AE81001C65F148003DC19E /* List (2).png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -257,6 +356,7 @@
 		9B6202CC19A3E57088D7904A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51AE81171C661456003DC19E /* SpeechSDK.framework */,
 				51AE80B51C65A9F4003DC19E /* Gifu.framework */,
 				01737792095DABA665C65EDD /* Pods_Petometer2.framework */,
 			);
@@ -285,6 +385,7 @@
 				51C03C571C6598FF000185BA /* Resources */,
 				B322B67DB383A078DF1ABB3F /* Embed Pods Frameworks */,
 				2CB3F64168D26BED2A539D3F /* Copy Pods Resources */,
+				51AE811B1C661469003DC19E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,27 +484,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				51AE80DC1C65BDDC003DC19E /* Run1.gif in Resources */,
+				51AE81131C65FD94003DC19E /* Step2.png in Resources */,
 				51AE80DF1C65BDDC003DC19E /* Run4.gif in Resources */,
 				51AE80DB1C65BDDC003DC19E /* Run.gif in Resources */,
 				51AE80D21C65BDDC003DC19E /* Stationary.gif in Resources */,
 				51AE80E61C65BDDC003DC19E /* Walk8.gif in Resources */,
 				51AE80DD1C65BDDC003DC19E /* Run2.gif in Resources */,
 				51AE80E41C65BDDC003DC19E /* Stationary7.gif in Resources */,
+				51AE80F41C65E345003DC19E /* Egg2.png in Resources */,
 				51C03C671C6598FF000185BA /* LaunchScreen.storyboard in Resources */,
 				51AE80E81C65BDDC003DC19E /* Walk3.gif in Resources */,
 				51C03C641C6598FF000185BA /* Assets.xcassets in Resources */,
+				51AE81121C65FD94003DC19E /* Step1.png in Resources */,
+				51AE81101C65FD94003DC19E /* PushUp.gif in Resources */,
 				51AE80E21C65BDDC003DC19E /* Run7.gif in Resources */,
+				51AE810E1C65FD94003DC19E /* Lunges.gif in Resources */,
 				51AE80DA1C65BDDC003DC19E /* Stationary6.gif in Resources */,
+				51AE81151C65FD94003DC19E /* Step4.png in Resources */,
 				51AE80E51C65BDDC003DC19E /* Walk.gif in Resources */,
 				51AE80D91C65BDDC003DC19E /* Stationary5.gif in Resources */,
+				51AE81141C65FD94003DC19E /* Step3.png in Resources */,
 				51AE80E91C65BDDC003DC19E /* Walk4.gif in Resources */,
 				51CC9D0F1C659A45006F08C5 /* ProtoBackground.png in Resources */,
+				51AE81161C65FD94003DC19E /* Step5.png in Resources */,
+				51AE80F01C65D225003DC19E /* WalkStill.png in Resources */,
+				51AE81011C65F148003DC19E /* List (2).png in Resources */,
 				51AE80EA1C65BDDC003DC19E /* Walk5.gif in Resources */,
 				51AE80D61C65BDDC003DC19E /* GlassesShake.gif in Resources */,
+				51AE80EE1C65D218003DC19E /* StationaryStill.png in Resources */,
 				51AE80D71C65BDDC003DC19E /* Stationary3.gif in Resources */,
 				51AE80E71C65BDDC003DC19E /* Walk2.gif in Resources */,
 				51AE80D81C65BDDC003DC19E /* Stationary4.gif in Resources */,
 				51C03C621C6598FF000185BA /* Main.storyboard in Resources */,
+				51AE810F1C65FD94003DC19E /* Plank.png in Resources */,
 				51AE80EB1C65BDDC003DC19E /* Walk6.gif in Resources */,
 				51AE80D41C65BDDC003DC19E /* EggShake.gif in Resources */,
 				51AE80EC1C65BDDC003DC19E /* Walk7.gif in Resources */,
@@ -411,8 +524,11 @@
 				51AE80D31C65BDDC003DC19E /* Stationary2.gif in Resources */,
 				51AE80D51C65BDDC003DC19E /* EvolShake.gif in Resources */,
 				51AE80DE1C65BDDC003DC19E /* Run3.gif in Resources */,
+				51AE81111C65FD94003DC19E /* Squats.gif in Resources */,
 				51AE80E31C65BDDC003DC19E /* Stationary8.gif in Resources */,
+				51AE80FC1C65E64E003DC19E /* WorkOut.png in Resources */,
 				51AE80E11C65BDDC003DC19E /* Run6.gif in Resources */,
+				51AE80F21C65D22D003DC19E /* RunStill.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,9 +601,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE80F61C65E55B003DC19E /* EncouragementViewController.swift in Sources */,
 				51C03C5F1C6598FF000185BA /* ViewController.swift in Sources */,
 				51C03C5D1C6598FF000185BA /* AppDelegate.swift in Sources */,
 				51CC9D131C659C9F006F08C5 /* HealthMonitor.swift in Sources */,
+				51AE81031C65F1D6003DC19E /* WorkoutListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +749,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					/Users/scueva/Documents/SpeechSDK/SpeechSDK.framework,
 				);
+				HEADER_SEARCH_PATHS = /Users/scueva/Documents/SpeechSDK/SpeechSDK.framework/Headers;
 				INFOPLIST_FILE = Petometer2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer2;
@@ -647,7 +767,9 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					/Users/scueva/Documents/SpeechSDK/SpeechSDK.framework,
 				);
+				HEADER_SEARCH_PATHS = /Users/scueva/Documents/SpeechSDK/SpeechSDK.framework/Headers;
 				INFOPLIST_FILE = Petometer2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer2;
