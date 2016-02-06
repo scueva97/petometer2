@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19EBC9DA7A82403FBBF24F11 /* Pods_Petometer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01737792095DABA665C65EDD /* Pods_Petometer2.framework */; };
+		51AE80B61C65A9F4003DC19E /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE80B51C65A9F4003DC19E /* Gifu.framework */; };
 		51C03C5D1C6598FF000185BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5C1C6598FF000185BA /* AppDelegate.swift */; };
 		51C03C5F1C6598FF000185BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C5E1C6598FF000185BA /* ViewController.swift */; };
 		51C03C621C6598FF000185BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C03C601C6598FF000185BA /* Main.storyboard */; };
@@ -15,8 +17,11 @@
 		51C03C721C6598FF000185BA /* Petometer2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C711C6598FF000185BA /* Petometer2Tests.swift */; };
 		51C03C7D1C6598FF000185BA /* Petometer2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C03C7C1C6598FF000185BA /* Petometer2UITests.swift */; };
 		51CC9D0F1C659A45006F08C5 /* ProtoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D0E1C659A45006F08C5 /* ProtoBackground.png */; };
-		51CC9D111C659B76006F08C5 /* BandShakeFull.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D101C659B76006F08C5 /* BandShakeFull.gif */; };
+		51CC9D111C659B76006F08C5 /* Stationary.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D101C659B76006F08C5 /* Stationary.gif */; };
 		51CC9D131C659C9F006F08C5 /* HealthMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CC9D121C659C9F006F08C5 /* HealthMonitor.swift */; };
+		51CC9D161C65A607006F08C5 /* Running.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D141C65A607006F08C5 /* Running.png */; };
+		51CC9D171C65A607006F08C5 /* Walking.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D151C65A607006F08C5 /* Walking.png */; };
+		51CC9D191C65A740006F08C5 /* Stationary.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CC9D181C65A740006F08C5 /* Stationary.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01737792095DABA665C65EDD /* Pods_Petometer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petometer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AE80B51C65A9F4003DC19E /* Gifu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gifu.framework; path = "Pods/../build/Debug-iphoneos/Gifu.framework"; sourceTree = "<group>"; };
 		51C03C591C6598FF000185BA /* Petometer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petometer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C03C5C1C6598FF000185BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C03C5E1C6598FF000185BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +58,13 @@
 		51C03C7C1C6598FF000185BA /* Petometer2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petometer2UITests.swift; sourceTree = "<group>"; };
 		51C03C7E1C6598FF000185BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CC9D0E1C659A45006F08C5 /* ProtoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ProtoBackground.png; path = ../../../../../Downloads/ProtoBackground.png; sourceTree = "<group>"; };
-		51CC9D101C659B76006F08C5 /* BandShakeFull.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = BandShakeFull.gif; path = ../../../../../Downloads/BandShakeFull.gif; sourceTree = "<group>"; };
+		51CC9D101C659B76006F08C5 /* Stationary.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Stationary.gif; path = ../../../../../Downloads/Stationary.gif; sourceTree = "<group>"; };
 		51CC9D121C659C9F006F08C5 /* HealthMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthMonitor.swift; sourceTree = "<group>"; };
+		51CC9D141C65A607006F08C5 /* Running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Running.png; path = ../../../../../Downloads/Running.png; sourceTree = "<group>"; };
+		51CC9D151C65A607006F08C5 /* Walking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Walking.png; path = ../../../../../Downloads/Walking.png; sourceTree = "<group>"; };
+		51CC9D181C65A740006F08C5 /* Stationary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stationary.png; path = ../../../../../Downloads/Stationary.png; sourceTree = "<group>"; };
+		711360146252CD596D035E88 /* Pods-Petometer2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petometer2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Petometer2/Pods-Petometer2.debug.xcconfig"; sourceTree = "<group>"; };
+		8B6EE1B4165A2629DF388185 /* Pods-Petometer2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petometer2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Petometer2/Pods-Petometer2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51AE80B61C65A9F4003DC19E /* Gifu.framework in Frameworks */,
+				19EBC9DA7A82403FBBF24F11 /* Pods_Petometer2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +101,8 @@
 				51C03C701C6598FF000185BA /* Petometer2Tests */,
 				51C03C7B1C6598FF000185BA /* Petometer2UITests */,
 				51C03C5A1C6598FF000185BA /* Products */,
+				DDCC37D772C0E35C1848561A /* Pods */,
+				9B6202CC19A3E57088D7904A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,10 +176,31 @@
 		51CC9D0D1C659A27006F08C5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				51CC9D101C659B76006F08C5 /* BandShakeFull.gif */,
+				51CC9D181C65A740006F08C5 /* Stationary.png */,
+				51CC9D141C65A607006F08C5 /* Running.png */,
+				51CC9D151C65A607006F08C5 /* Walking.png */,
+				51CC9D101C659B76006F08C5 /* Stationary.gif */,
 				51CC9D0E1C659A45006F08C5 /* ProtoBackground.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		9B6202CC19A3E57088D7904A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51AE80B51C65A9F4003DC19E /* Gifu.framework */,
+				01737792095DABA665C65EDD /* Pods_Petometer2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDCC37D772C0E35C1848561A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711360146252CD596D035E88 /* Pods-Petometer2.debug.xcconfig */,
+				8B6EE1B4165A2629DF388185 /* Pods-Petometer2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C03C811C6598FF000185BA /* Build configuration list for PBXNativeTarget "Petometer2" */;
 			buildPhases = (
+				4833756CAAF7074A0984E89C /* Check Pods Manifest.lock */,
 				51C03C551C6598FF000185BA /* Sources */,
 				51C03C561C6598FF000185BA /* Frameworks */,
 				51C03C571C6598FF000185BA /* Resources */,
+				B322B67DB383A078DF1ABB3F /* Embed Pods Frameworks */,
+				2CB3F64168D26BED2A539D3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,10 +314,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C03C671C6598FF000185BA /* LaunchScreen.storyboard in Resources */,
-				51CC9D111C659B76006F08C5 /* BandShakeFull.gif in Resources */,
+				51CC9D111C659B76006F08C5 /* Stationary.gif in Resources */,
 				51C03C641C6598FF000185BA /* Assets.xcassets in Resources */,
+				51CC9D161C65A607006F08C5 /* Running.png in Resources */,
 				51CC9D0F1C659A45006F08C5 /* ProtoBackground.png in Resources */,
 				51C03C621C6598FF000185BA /* Main.storyboard in Resources */,
+				51CC9D171C65A607006F08C5 /* Walking.png in Resources */,
+				51CC9D191C65A740006F08C5 /* Stationary.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +339,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB3F64168D26BED2A539D3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Petometer2/Pods-Petometer2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4833756CAAF7074A0984E89C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B322B67DB383A078DF1ABB3F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Petometer2/Pods-Petometer2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		51C03C551C6598FF000185BA /* Sources */ = {
@@ -442,8 +533,13 @@
 		};
 		51C03C821C6598FF000185BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711360146252CD596D035E88 /* Pods-Petometer2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Petometer2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer2;
@@ -453,8 +549,13 @@
 		};
 		51C03C831C6598FF000185BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6EE1B4165A2629DF388185 /* Pods-Petometer2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Petometer2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.columbia.sc3972.Petometer2;

@@ -7,8 +7,16 @@
 //
 
 import Foundation
+import CoreMotion
 
 class HealthMonitor {
+    
+    var days:[String] = []
+    var stepsTaken:[Int] = []
+    
+    let activityManager = CMMotionActivityManager()
+    let pedoMeter = CMPedometer()
+    
     
     
     
