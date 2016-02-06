@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		19EBC9DA7A82403FBBF24F11 /* Pods_Petometer2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01737792095DABA665C65EDD /* Pods_Petometer2.framework */; };
 		510474E61C663AFB00CD1D2F /* Eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 510474E51C663AFB00CD1D2F /* Eat.png */; };
+		510474E81C663E5F00CD1D2F /* Chew.gif in Resources */ = {isa = PBXBuildFile; fileRef = 510474E71C663E5F00CD1D2F /* Chew.gif */; };
+		510474EA1C663E9700CD1D2F /* ChewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510474E91C663E9700CD1D2F /* ChewViewController.swift */; };
 		51AE80B61C65A9F4003DC19E /* Gifu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE80B51C65A9F4003DC19E /* Gifu.framework */; };
 		51AE80D21C65BDDC003DC19E /* Stationary.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80B71C65BDDC003DC19E /* Stationary.gif */; };
 		51AE80D31C65BDDC003DC19E /* Stationary2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51AE80B81C65BDDC003DC19E /* Stationary2.gif */; };
@@ -104,6 +106,8 @@
 /* Begin PBXFileReference section */
 		01737792095DABA665C65EDD /* Pods_Petometer2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Petometer2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		510474E51C663AFB00CD1D2F /* Eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Eat.png; path = ../../../../../Downloads/Eat.png; sourceTree = "<group>"; };
+		510474E71C663E5F00CD1D2F /* Chew.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Chew.gif; sourceTree = "<group>"; };
+		510474E91C663E9700CD1D2F /* ChewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChewViewController.swift; sourceTree = "<group>"; };
 		51AE80B51C65A9F4003DC19E /* Gifu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gifu.framework; path = "Pods/../build/Debug-iphoneos/Gifu.framework"; sourceTree = "<group>"; };
 		51AE80B71C65BDDC003DC19E /* Stationary.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Stationary.gif; path = ../../../../../Downloads/devfestproject2016/Stationary.gif; sourceTree = "<group>"; };
 		51AE80B81C65BDDC003DC19E /* Stationary2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Stationary2.gif; path = ../../../../../Downloads/devfestproject2016/Stationary2.gif; sourceTree = "<group>"; };
@@ -334,6 +338,7 @@
 				51AE81201C662EEB003DC19E /* Step2ViewController.swift */,
 				51AE81221C662FED003DC19E /* Step3ViewController.swift */,
 				51AE81241C663208003DC19E /* FinalStepViewController.swift */,
+				510474E91C663E9700CD1D2F /* ChewViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				51AE80FA1C65E64E003DC19E /* WorkOut.png */,
 				51AE81001C65F148003DC19E /* List (2).png */,
 				510474E51C663AFB00CD1D2F /* Eat.png */,
+				510474E71C663E5F00CD1D2F /* Chew.gif */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -533,6 +539,7 @@
 				51AE80D81C65BDDC003DC19E /* Stationary4.gif in Resources */,
 				51C03C621C6598FF000185BA /* Main.storyboard in Resources */,
 				51AE810F1C65FD94003DC19E /* Plank.png in Resources */,
+				510474E81C663E5F00CD1D2F /* Chew.gif in Resources */,
 				51AE80EB1C65BDDC003DC19E /* Walk6.gif in Resources */,
 				51AE80D41C65BDDC003DC19E /* EggShake.gif in Resources */,
 				51AE80EC1C65BDDC003DC19E /* Walk7.gif in Resources */,
@@ -626,6 +633,7 @@
 				51AE81251C663208003DC19E /* FinalStepViewController.swift in Sources */,
 				51AE811F1C662D13003DC19E /* Step1ViewController.swift in Sources */,
 				51AE81031C65F1D6003DC19E /* WorkoutListViewController.swift in Sources */,
+				510474EA1C663E9700CD1D2F /* ChewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

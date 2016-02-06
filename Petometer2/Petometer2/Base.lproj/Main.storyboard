@@ -28,6 +28,12 @@
                                     <segue destination="BYZ-38-t0r" kind="push" id="q5e-zk-5aj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HC-Tz-YN1">
+                                <rect key="frame" x="25" y="245" width="330" height="280"/>
+                                <connections>
+                                    <segue destination="Z8B-wf-PXq" kind="push" id="FIv-QG-8s4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -37,6 +43,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6i-1Y-POM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1647.5" y="-278.5"/>
+        </scene>
+        <!--Chew View Controller-->
+        <scene sceneID="VVh-R7-j82">
+            <objects>
+                <viewController id="Z8B-wf-PXq" customClass="ChewViewController" customModule="Petometer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qMn-rb-GTz"/>
+                        <viewControllerLayoutGuide type="bottom" id="4fd-AR-WpR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lYV-1i-2OK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProtoBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yyg-Zu-F78">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chew.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Bcg-0P-FUy" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="43" y="87" width="304" height="572"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B2W-G2-K2n"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="chewImage" destination="Bcg-0P-FUy" id="sA7-pK-z7z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grW-Ij-1xq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2143.5" y="-316.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -491,6 +528,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Chew.gif" width="750" height="1334"/>
         <image name="Eat.png" width="750" height="1334"/>
         <image name="Egg2.png" width="491" height="539"/>
         <image name="List (2).png" width="750" height="1334"/>
