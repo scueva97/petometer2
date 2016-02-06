@@ -26,7 +26,7 @@
                   moduleName = "Petometer2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
-                  timestampString = "476424759.65951"
+                  timestampString = "476428922.595225"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,7 +41,7 @@
                   moduleName = "Petometer2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
-                  timestampString = "476424759.65998"
+                  timestampString = "476428922.595416"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,7 +56,7 @@
                   moduleName = "Petometer2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
-                  timestampString = "476424759.660252"
+                  timestampString = "476428922.595591"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
@@ -71,12 +71,74 @@
                   moduleName = "Petometer2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
-                  timestampString = "476424759.660427"
+                  timestampString = "476428922.595935"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "19"
                   endingLineNumber = "19"
                   offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Petometer2/ViewController.swift"
+            timestampString = "476428027.644776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Petometer2/ViewController.swift"
+            timestampString = "476427975.914434"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Petometer2.ViewController.__deallocating_deinit"
+                  moduleName = "Petometer2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
+                  timestampString = "476428922.5991"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Petometer2.ViewController.init (Petometer2.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Petometer2.ViewController"
+                  moduleName = "Petometer2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scueva/Documents/git/petometer2/Petometer2/Petometer2/ViewController.swift"
+                  timestampString = "476428922.599272"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
                </Location>
             </Locations>
          </BreakpointContent>

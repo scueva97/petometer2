@@ -29,15 +29,8 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kh1-MB-gat" customClass="AnimatableImageView" customModule="Gifu">
-                                <rect key="frame" x="225" y="223" width="150" height="218"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Kh1-MB-gat" secondAttribute="height" multiplier="11:16" id="6bI-a1-bkC"/>
-                                    <constraint firstAttribute="width" constant="150" id="tYY-VN-Bbu"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru6-Ix-2Ur">
-                                <rect key="frame" x="275" y="174" width="50" height="29"/>
+                                <rect key="frame" x="275" y="168" width="50" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ru6-Ix-2Ur" secondAttribute="height" multiplier="11:16" id="Bkv-Q9-Niy"/>
                                     <constraint firstAttribute="width" constant="50" id="pcT-gr-xhe"/>
@@ -60,7 +53,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTE-Yr-C3o">
-                                <rect key="frame" x="275" y="456" width="51" height="29"/>
+                                <rect key="frame" x="276" y="445" width="51" height="29"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -72,38 +65,46 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHJ-8p-VzR">
-                                <rect key="frame" x="276" y="500" width="49" height="29"/>
+                                <rect key="frame" x="275" y="482" width="50" height="29"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content="Steps">
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="20" name="ChalkboardSE-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kh1-MB-gat" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="226" y="232" width="150" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Kh1-MB-gat" secondAttribute="height" multiplier="11:16" id="6bI-a1-bkC"/>
+                                    <constraint firstAttribute="width" constant="150" id="tYY-VN-Bbu"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Kh1-MB-gat" firstAttribute="top" secondItem="ru6-Ix-2Ur" secondAttribute="bottom" constant="20" id="1eX-gu-7gK"/>
-                            <constraint firstItem="WTE-Yr-C3o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="20w-3e-LpJ"/>
-                            <constraint firstItem="Kh1-MB-gat" firstAttribute="centerY" secondItem="4Mf-i1-J4G" secondAttribute="centerY" id="4zA-pb-bLb"/>
+                            <constraint firstItem="WTE-Yr-C3o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1.5" id="20w-3e-LpJ"/>
                             <constraint firstItem="WTE-Yr-C3o" firstAttribute="top" secondItem="Kh1-MB-gat" secondAttribute="bottom" constant="15" id="9zx-aW-Qtk"/>
-                            <constraint firstItem="OHJ-8p-VzR" firstAttribute="top" secondItem="WTE-Yr-C3o" secondAttribute="bottom" constant="15" id="Jah-Oo-mkR"/>
+                            <constraint firstItem="OHJ-8p-VzR" firstAttribute="top" secondItem="WTE-Yr-C3o" secondAttribute="bottom" constant="8" id="Jah-Oo-mkR"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Mf-i1-J4G" secondAttribute="bottom" id="JoP-Nv-udc"/>
-                            <constraint firstItem="Kh1-MB-gat" firstAttribute="top" secondItem="ru6-Ix-2Ur" secondAttribute="bottom" constant="20" id="LgO-J8-2qw"/>
+                            <constraint firstItem="Kh1-MB-gat" firstAttribute="top" secondItem="ru6-Ix-2Ur" secondAttribute="bottom" constant="15" id="LgO-J8-2qw"/>
                             <constraint firstItem="ru6-Ix-2Ur" firstAttribute="top" secondItem="Kh1-MB-gat" secondAttribute="top" id="NDk-UT-bie"/>
                             <constraint firstItem="Kh1-MB-gat" firstAttribute="centerX" secondItem="4Mf-i1-J4G" secondAttribute="centerX" id="bmm-4L-DnC"/>
                             <constraint firstItem="OHJ-8p-VzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chj-fd-Lmg"/>
                             <constraint firstItem="4Mf-i1-J4G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gLd-FI-TW8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kh1-MB-gat" secondAttribute="bottom" constant="170" id="hie-6U-xUC"/>
                             <constraint firstItem="4Mf-i1-J4G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="j3i-wh-dDm"/>
                             <constraint firstItem="ru6-Ix-2Ur" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nHk-Ih-ZNA"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="1eX-gu-7gK"/>
                                 <exclude reference="NDk-UT-bie"/>
+                                <exclude reference="1eX-gu-7gK"/>
                             </mask>
                         </variation>
                     </view>
